@@ -230,6 +230,31 @@
     else if (document.getElementById("btn-check-status")) stepPending();
   }
 
+  async function apiOnline() {
+    try {
+      const r = await fetch(api + "/api/health", { method: "GET", signal: AbortSignal.timeout(8000) });
+      const j = await r.json();
+      return !!j.ok;
+    } catch {
+      return false;
+    }
+  }
+
+  function stepTelegramOnly() {
+    const bot = (cfg.telegramBotName || "uportbot").replace("@", "");
+    const p = pr();
+    const priceStr = p.region === "ru" ? `${p.amount} ₽` : `$${p.amount}`;
+    document.getElementById("pay-root").innerHTML = `
+      <div class="pay-box" style="border-color:var(--gold)">
+        <h2 style="color:var(--gold);font-family:var(--font-display)">Оплата через Telegram</h2>
+        <p>Сервер оплаты временно недоступен. Оплатите в боте — без карты для хостинга.</p>
+        <p><b>Цена:</b> ${priceStr}</p>
+        <motion class="pay-details">${payDetailsHtml()}</div>
+        <p class="pay-hint">В боте: /pay → email → перевод → фото чека</p>
+        <a class="btn btn-gold btn-link" href="https://t.me/${bot}?start=pay" target="_blank" rel="noopener">Открыть @${bot}</a>
+      </div>`;
+  }
+
   async function init() {
     if (window.HartI18n && !window.HartI18n.ready) await window.HartI18n.init();
     ensureRuForPayment();
@@ -239,6 +264,10 @@
     }
     await loadCourseMeta();
     renderPreview();
+    if (!(await apiOnline())) {
+      stepTelegramOnly();
+      return;
+    }
     if (window.HartSession?.isLoggedIn?.()) {
       userEmail = window.HartSession.getEmail();
       payCode = window.HartSession.getCode();

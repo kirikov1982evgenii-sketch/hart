@@ -305,6 +305,14 @@ def handle_callback(query: dict) -> None:
     answer_callback(callback_id)
 
 
+def process_update(update: dict) -> None:
+    """Одно обновление (webhook или polling)."""
+    if "callback_query" in update:
+        handle_callback(update["callback_query"])
+    elif "message" in update:
+        handle_message(update["message"])
+
+
 def poll() -> None:
     if not TOKEN:
         print("[!] Задайте HART_TELEGRAM_BOT_TOKEN в .env.local", flush=True)
@@ -318,10 +326,7 @@ def poll() -> None:
             data = api("getUpdates", timeout=50, offset=offset)
             for u in data.get("result", []):
                 offset = u["update_id"] + 1
-                if "callback_query" in u:
-                    handle_callback(u["callback_query"])
-                elif "message" in u:
-                    handle_message(u["message"])
+                process_update(u)
         except Exception as e:
             print("poll error:", e, flush=True)
             time.sleep(5)
