@@ -1,0 +1,7 @@
+{
+  "name": "hart-knowledge-club",
+  "private": true,
+  "scripts": {
+    "build": "python scripts/gen_config.py"
+  }
+}

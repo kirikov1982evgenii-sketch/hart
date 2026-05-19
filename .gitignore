@@ -1,0 +1,8 @@
+.env.local
+.env
+data/payment_claims.json
+data/users.json
+data/receipts/
+__pycache__/
+*.pyc
+.DS_Store

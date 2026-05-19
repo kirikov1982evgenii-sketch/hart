@@ -1,0 +1,8 @@
+.env.local
+.git
+.cursor
+__pycache__
+*.pyc
+data/receipts/*
+data/payment_claims.json
+data/users.json

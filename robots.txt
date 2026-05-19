@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin-payments.html
+Disallow: /admin.html
+Disallow: /data/
+Disallow: /scripts/

@@ -1,0 +1,1221 @@
+{
+  "courses": [
+    {
+      "title": "Stepik — каталог",
+      "url": "https://stepik.org/catalog",
+      "desc": "Сотни курсов: Python, ML, математика",
+      "tags": [
+        "РФ",
+        "IT"
+      ]
+    },
+    {
+      "title": "Поколение Python",
+      "url": "https://stepik.org/course/67/",
+      "desc": "Базовый Python",
+      "tags": [
+        "Python"
+      ]
+    },
+    {
+      "title": "Java для начинающих",
+      "url": "https://stepik.org/course/187/",
+      "desc": "Java с нуля",
+      "tags": [
+        "Java"
+      ]
+    },
+    {
+      "title": "Алгоритмы: теория и практика",
+      "url": "https://stepik.org/course/7/",
+      "desc": "Структуры данных",
+      "tags": [
+        "алгоритмы"
+      ]
+    },
+    {
+      "title": "Нейронные сети",
+      "url": "https://stepik.org/course/401/",
+      "desc": "Deep learning",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Веб-разработка Stepik",
+      "url": "https://stepik.org/course/512/",
+      "desc": "HTML, CSS, JavaScript",
+      "tags": [
+        "веб"
+      ]
+    },
+    {
+      "title": "SQL для анализа данных",
+      "url": "https://stepik.org/course/63054/",
+      "desc": "Практика SQL",
+      "tags": [
+        "SQL"
+      ]
+    },
+    {
+      "title": "Открытое образование",
+      "url": "https://openedu.ru/course/",
+      "desc": "Курсы вузов РФ",
+      "tags": [
+        "РФ",
+        "вуз"
+      ]
+    },
+    {
+      "title": "ИТМО — OpenEdu",
+      "url": "https://openedu.ru/university/ITMO/",
+      "desc": "Курсы ИТМО",
+      "tags": [
+        "вуз"
+      ]
+    },
+    {
+      "title": "МФТИ — OpenEdu",
+      "url": "https://openedu.ru/university/MIPT/",
+      "desc": "Физтех",
+      "tags": [
+        "вуз"
+      ]
+    },
+    {
+      "title": "ВШЭ — OpenEdu",
+      "url": "https://openedu.ru/university/HSE/",
+      "desc": "Экономика и IT",
+      "tags": [
+        "вуз"
+      ]
+    },
+    {
+      "title": "Лекториум",
+      "url": "https://www.lektorium.tv/",
+      "desc": "Открытые лекции",
+      "tags": [
+        "РФ"
+      ]
+    },
+    {
+      "title": "Арзамас",
+      "url": "https://arzamas.academy/courses",
+      "desc": "Гуманитарные курсы",
+      "tags": [
+        "РФ"
+      ]
+    },
+    {
+      "title": "HTML Academy",
+      "url": "https://htmlacademy.ru/courses",
+      "desc": "Вёрстка",
+      "tags": [
+        "веб"
+      ]
+    },
+    {
+      "title": "Hexlet",
+      "url": "https://ru.hexlet.io/courses",
+      "desc": "Dev, Git, языки",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "Khan Academy",
+      "url": "https://www.khanacademy.org/",
+      "desc": "Школа и вуз предметы",
+      "tags": [
+        "мир"
+      ]
+    },
+    {
+      "title": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/learn/",
+      "desc": "Сертификаты IT",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/search/",
+      "desc": "Курсы MIT",
+      "tags": [
+        "вуз"
+      ]
+    },
+    {
+      "title": "Harvard CS50",
+      "url": "https://cs50.harvard.edu/x/",
+      "desc": "Computer Science",
+      "tags": [
+        "CS"
+      ]
+    },
+    {
+      "title": "Stanford Online",
+      "url": "https://online.stanford.edu/free-courses",
+      "desc": "Бесплатные курсы",
+      "tags": [
+        "вуз"
+      ]
+    },
+    {
+      "title": "edX Free",
+      "url": "https://www.edx.org/course?price=Free",
+      "desc": "Audit курсы",
+      "tags": [
+        "мир"
+      ]
+    },
+    {
+      "title": "Coursera Free",
+      "url": "https://www.coursera.org/courses?query=free",
+      "desc": "Audit",
+      "tags": [
+        "мир"
+      ]
+    },
+    {
+      "title": "FutureLearn",
+      "url": "https://www.futurelearn.com/courses",
+      "desc": "Модули бесплатно",
+      "tags": [
+        "мир"
+      ]
+    },
+    {
+      "title": "Alison",
+      "url": "https://alison.com/course",
+      "desc": "Сертификаты",
+      "tags": [
+        "мир"
+      ]
+    },
+    {
+      "title": "Saylor Academy",
+      "url": "https://learn.saylor.org/",
+      "desc": "Академические курсы",
+      "tags": [
+        "мир"
+      ]
+    },
+    {
+      "title": "OpenLearn",
+      "url": "https://www.open.edu/openlearn/free-courses",
+      "desc": "Open University",
+      "tags": [
+        "UK"
+      ]
+    },
+    {
+      "title": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/training/",
+      "desc": "Azure, .NET",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "Google Skills",
+      "url": "https://grow.google/intl/ru/",
+      "desc": "Цифровые навыки",
+      "tags": [
+        "навыки"
+      ]
+    },
+    {
+      "title": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws/",
+      "desc": "Облако AWS",
+      "tags": [
+        "cloud"
+      ]
+    },
+    {
+      "title": "IBM SkillsBuild",
+      "url": "https://skillsbuild.org/",
+      "desc": "IT навыки",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "The Odin Project",
+      "url": "https://www.theodinproject.com/",
+      "desc": "Full-stack",
+      "tags": [
+        "веб"
+      ]
+    },
+    {
+      "title": "MDN Learn Web",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn",
+      "desc": "Веб",
+      "tags": [
+        "веб"
+      ]
+    },
+    {
+      "title": "javascript.info",
+      "url": "https://javascript.info/",
+      "desc": "Современный JS",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "React.dev",
+      "url": "https://react.dev/learn",
+      "desc": "React",
+      "tags": [
+        "React"
+      ]
+    },
+    {
+      "title": "Go Tour",
+      "url": "https://go.dev/tour/",
+      "desc": "Язык Go",
+      "tags": [
+        "Go"
+      ]
+    },
+    {
+      "title": "Rust Book",
+      "url": "https://doc.rust-lang.org/book/",
+      "desc": "Rust",
+      "tags": [
+        "Rust"
+      ]
+    },
+    {
+      "title": "Python Tutorial",
+      "url": "https://docs.python.org/3/tutorial/",
+      "desc": "Официальный Python",
+      "tags": [
+        "Python"
+      ]
+    },
+    {
+      "title": "Fast.ai",
+      "url": "https://course.fast.ai/",
+      "desc": "Deep learning",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Kaggle Learn",
+      "url": "https://www.kaggle.com/learn",
+      "desc": "Data Science",
+      "tags": [
+        "DS"
+      ]
+    },
+    {
+      "title": "SQLBolt",
+      "url": "https://sqlbolt.com/",
+      "desc": "Интерактивный SQL",
+      "tags": [
+        "SQL"
+      ]
+    },
+    {
+      "title": "Docker Curriculum",
+      "url": "https://docker-curriculum.com/",
+      "desc": "Docker",
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title": "Kubernetes Basics",
+      "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+      "desc": "K8s",
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title": "Pro Git",
+      "url": "https://git-scm.com/book/ru/v2",
+      "desc": "Git",
+      "tags": [
+        "Git"
+      ]
+    },
+    {
+      "title": "Cisco NetAcad",
+      "url": "https://www.netacad.com/",
+      "desc": "Сеть и безопасность",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "title": "Linux Foundation Free",
+      "url": "https://training.linuxfoundation.org/free-linux-training/",
+      "desc": "Linux",
+      "tags": [
+        "Linux"
+      ]
+    },
+    {
+      "title": "Class Central Free",
+      "url": "https://www.classcentral.com/collection/free-courses",
+      "desc": "Агрегатор MOOC",
+      "tags": [
+        "агрегатор"
+      ]
+    },
+    {
+      "title": "Open Culture Courses",
+      "url": "https://www.openculture.com/freeonlinecourses",
+      "desc": "Подборка курсов",
+      "tags": [
+        "агрегатор"
+      ]
+    },
+    {
+      "title": "W3Schools",
+      "url": "https://www.w3schools.com/",
+      "desc": "Справочник веб",
+      "tags": [
+        "веб"
+      ]
+    },
+    {
+      "title": "Sololearn",
+      "url": "https://www.sololearn.com/",
+      "desc": "Мобильный код",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "Exercism",
+      "url": "https://exercism.org/",
+      "desc": "Практика языков",
+      "tags": [
+        "практика"
+      ]
+    },
+    {
+      "title": "HackerRank Learn",
+      "url": "https://www.hackerrank.com/domains",
+      "desc": "Туториалы",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "NPTEL India",
+      "url": "https://nptel.ac.in/courses",
+      "desc": "Инженерия",
+      "tags": [
+        "вуз"
+      ]
+    },
+    {
+      "title": "OpenHPI",
+      "url": "https://open.hpi.de/courses",
+      "desc": "IT Германия",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "Yale Open Courses",
+      "url": "https://oyc.yale.edu/",
+      "desc": "Yale",
+      "tags": [
+        "вуз"
+      ]
+    },
+    {
+      "title": "Duolingo",
+      "url": "https://www.duolingo.com/",
+      "desc": "Иностранные языки",
+      "tags": [
+        "языки"
+      ]
+    },
+    {
+      "title": "DW Learn German",
+      "url": "https://learngerman.dw.com/",
+      "desc": "Немецкий",
+      "tags": [
+        "немецкий"
+      ]
+    },
+    {
+      "title": "TV5MONDE Apprendre",
+      "url": "https://apprendre.tv5monde.com/",
+      "desc": "Французский",
+      "tags": [
+        "французский"
+      ]
+    },
+    {
+      "title": "BBC Learning English",
+      "url": "https://www.bbc.co.uk/learningenglish",
+      "desc": "Английский",
+      "tags": [
+        "английский"
+      ]
+    },
+    {
+      "title": "Real Python",
+      "url": "https://realpython.com/",
+      "desc": "Статьи и гайды Python",
+      "tags": [
+        "Python"
+      ]
+    },
+    {
+      "title": "3Blue1Brown",
+      "url": "https://www.3blue1brown.com/",
+      "desc": "Математика",
+      "tags": [
+        "математика"
+      ]
+    },
+    {
+      "title": "YouTube freeCodeCamp",
+      "url": "https://www.youtube.com/@freecodecamp",
+      "desc": "Видеокурсы",
+      "tags": [
+        "видео"
+      ]
+    },
+    {
+      "title": "YouTube MIT OCW",
+      "url": "https://www.youtube.com/@mitocw",
+      "desc": "Лекции MIT",
+      "tags": [
+        "видео"
+      ]
+    },
+    {
+      "title": "PostgreSQL Tutorial",
+      "url": "https://www.postgresqltutorial.com/",
+      "desc": "PostgreSQL",
+      "tags": [
+        "SQL"
+      ]
+    },
+    {
+      "title": "MongoDB University",
+      "url": "https://learn.mongodb.com/",
+      "desc": "MongoDB",
+      "tags": [
+        "DB"
+      ]
+    },
+    {
+      "title": "Redis University",
+      "url": "https://university.redis.io/",
+      "desc": "Redis",
+      "tags": [
+        "DB"
+      ]
+    },
+    {
+      "title": "Figma Learn",
+      "url": "https://help.figma.com/hc/en-us/categories/360002223074",
+      "desc": "Дизайн UI",
+      "tags": [
+        "дизайн"
+      ]
+    },
+    {
+      "title": "Blender Manual",
+      "url": "https://docs.blender.org/manual/en/latest/",
+      "desc": "3D Blender",
+      "tags": [
+        "3D"
+      ]
+    },
+    {
+      "title": "musictheory.net",
+      "url": "https://www.musictheory.net/lessons",
+      "desc": "Теория музыки",
+      "tags": [
+        "музыка"
+      ]
+    },
+    {
+      "title": "Purdue OWL",
+      "url": "https://owl.purdue.edu/owl/research_and_citation/resources.html",
+      "desc": "Академическое письмо",
+      "tags": [
+        "письмо"
+      ]
+    },
+    {
+      "title": "Marginal Revolution University",
+      "url": "https://mru.org/",
+      "desc": "Экономика",
+      "tags": [
+        "экономика"
+      ]
+    },
+    {
+      "title": "Khan Finance",
+      "url": "https://www.khanacademy.org/economics-finance-domain",
+      "desc": "Финансы",
+      "tags": [
+        "финансы"
+      ]
+    },
+    {
+      "title": "Atlassian Agile",
+      "url": "https://www.atlassian.com/agile",
+      "desc": "Agile",
+      "tags": [
+        "Agile"
+      ]
+    },
+    {
+      "title": "Scrum.org Resources",
+      "url": "https://www.scrum.org/resources",
+      "desc": "Scrum",
+      "tags": [
+        "Scrum"
+      ]
+    },
+    {
+      "title": "DeepLearning.AI",
+      "url": "https://www.deeplearning.ai/courses/",
+      "desc": "Курсы по AI",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Google Analytics Academy",
+      "url": "https://analytics.google.com/analytics/academy/",
+      "desc": "Аналитика",
+      "tags": [
+        "аналитика"
+      ]
+    },
+    {
+      "title": "Meta Blueprint",
+      "url": "https://www.facebook.com/business/learn",
+      "desc": "SMM",
+      "tags": [
+        "SMM"
+      ]
+    },
+    {
+      "title": "HubSpot Academy",
+      "url": "https://academy.hubspot.com/courses",
+      "desc": "Маркетинг",
+      "tags": [
+        "маркетинг"
+      ]
+    },
+    {
+      "title": "Oracle University Free",
+      "url": "https://education.oracle.com/free-training",
+      "desc": "Oracle",
+      "tags": [
+        "DB"
+      ]
+    },
+    {
+      "title": "SAP Learning",
+      "url": "https://learning.sap.com/",
+      "desc": "SAP",
+      "tags": [
+        "ERP"
+      ]
+    },
+    {
+      "title": "Caltech Learning from Data",
+      "url": "https://work.caltech.edu/telecourse.html",
+      "desc": "ML курс",
+      "tags": [
+        "ML"
+      ]
+    },
+    {
+      "title": "Berkeley CS61A",
+      "url": "https://cs61a.org/",
+      "desc": "CS Berkeley",
+      "tags": [
+        "CS"
+      ]
+    },
+    {
+      "title": "CMU Open Learning",
+      "url": "https://www.cmu.edu/oli/",
+      "desc": "OLI",
+      "tags": [
+        "вуз"
+      ]
+    },
+    {
+      "title": "TU Delft OCW",
+      "url": "https://ocw.tudelft.nl/",
+      "desc": "Инженерия",
+      "tags": [
+        "вуз"
+      ]
+    },
+    {
+      "title": "Stepik — C++",
+      "url": "https://stepik.org/course/7/",
+      "desc": "C++ алгоритмы",
+      "tags": [
+        "C++"
+      ]
+    },
+    {
+      "title": "Stepik — Математика DS",
+      "url": "https://stepik.org/course/2152/",
+      "desc": "Математика для DS",
+      "tags": [
+        "математика"
+      ]
+    },
+    {
+      "title": "Stepik — English IT",
+      "url": "https://stepik.org/course/154/",
+      "desc": "Английский для IT",
+      "tags": [
+        "английский"
+      ]
+    },
+    {
+      "title": "Stepik — Linux Bash",
+      "url": "https://stepik.org/course/73/",
+      "desc": "Bash и Linux",
+      "tags": [
+        "Linux"
+      ]
+    },
+    {
+      "title": "Coursera Python for Everybody",
+      "url": "https://www.coursera.org/specializations/python",
+      "desc": "Python audit",
+      "tags": [
+        "Python"
+      ]
+    },
+    {
+      "title": "edX Learn Python",
+      "url": "https://www.edx.org/learn/python",
+      "desc": "Python курсы",
+      "tags": [
+        "Python"
+      ]
+    },
+    {
+      "title": "Codecademy Catalog",
+      "url": "https://www.codecademy.com/catalog",
+      "desc": "Базовые треки",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "Scrimba",
+      "url": "https://scrimba.com/",
+      "desc": "Интерактивный фронтенд",
+      "tags": [
+        "веб"
+      ]
+    },
+    {
+      "title": "LeetCode Explore",
+      "url": "https://leetcode.com/explore/",
+      "desc": "Карты обучения",
+      "tags": [
+        "алгоритмы"
+      ]
+    },
+    {
+      "title": "Interaction Design Foundation",
+      "url": "https://www.interaction-design.org/literature",
+      "desc": "UX материалы",
+      "tags": [
+        "UX"
+      ]
+    },
+    {
+      "title": "GIMP Tutorials",
+      "url": "https://www.gimp.org/tutorials/",
+      "desc": "Графика",
+      "tags": [
+        "дизайн"
+      ]
+    },
+    {
+      "title": "Brilliant Courses",
+      "url": "https://brilliant.org/courses/",
+      "desc": "Математика и логика",
+      "tags": [
+        "математика"
+      ]
+    },
+    {
+      "title": "Memrise",
+      "url": "https://www.memrise.com/",
+      "desc": "Слова и языки",
+      "tags": [
+        "языки"
+      ]
+    },
+    {
+      "title": "Coursera Health",
+      "url": "https://www.coursera.org/browse/health",
+      "desc": "Медицина audit",
+      "tags": [
+        "медицина"
+      ]
+    },
+    {
+      "title": "Coursera Psychology",
+      "url": "https://www.coursera.org/browse/psychology",
+      "desc": "Психология",
+      "tags": [
+        "психология"
+      ]
+    },
+    {
+      "title": "edX Law Courses",
+      "url": "https://www.edx.org/learn/law",
+      "desc": "Право",
+      "tags": [
+        "право"
+      ]
+    },
+    {
+      "title": "Stanford Photography",
+      "url": "https://online.stanford.edu/courses/cs178-introduction-photography",
+      "desc": "Фотография",
+      "tags": [
+        "фото"
+      ]
+    },
+    {
+      "title": "Google Developers Learn",
+      "url": "https://developers.google.com/learn",
+      "desc": "Android, Web, ML",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "Vue.js Guide",
+      "url": "https://vuejs.org/guide/introduction.html",
+      "desc": "Vue 3",
+      "tags": [
+        "Vue"
+      ]
+    },
+    {
+      "title": "Svelte Tutorial",
+      "url": "https://svelte.dev/tutorial",
+      "desc": "Svelte",
+      "tags": [
+        "веб"
+      ]
+    },
+    {
+      "title": "Angular Tutorial",
+      "url": "https://angular.dev/tutorials",
+      "desc": "Angular",
+      "tags": [
+        "Angular"
+      ]
+    },
+    {
+      "title": "Django Docs",
+      "url": "https://docs.djangoproject.com/en/stable/intro/",
+      "desc": "Django",
+      "tags": [
+        "Python"
+      ]
+    },
+    {
+      "title": "FastAPI Docs",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "desc": "FastAPI",
+      "tags": [
+        "Python"
+      ]
+    },
+    {
+      "title": "Node.js Learn",
+      "url": "https://nodejs.org/en/learn",
+      "desc": "Node.js",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "Express Guide",
+      "url": "https://expressjs.com/en/starter/installing.html",
+      "desc": "Express",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "Flutter Learn",
+      "url": "https://docs.flutter.dev/learn",
+      "desc": "Flutter",
+      "tags": [
+        "mobile"
+      ]
+    },
+    {
+      "title": "Kotlin Docs",
+      "url": "https://kotlinlang.org/docs/getting-started.html",
+      "desc": "Kotlin",
+      "tags": [
+        "mobile"
+      ]
+    },
+    {
+      "title": "Swift Tour",
+      "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour",
+      "desc": "Swift",
+      "tags": [
+        "mobile"
+      ]
+    },
+    {
+      "title": "TensorFlow Tutorials",
+      "url": "https://www.tensorflow.org/tutorials",
+      "desc": "TensorFlow",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "PyTorch Tutorials",
+      "url": "https://pytorch.org/tutorials/",
+      "desc": "PyTorch",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Hugging Face Course",
+      "url": "https://huggingface.co/learn",
+      "desc": "NLP и ML",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "OpenCV Courses",
+      "url": "https://opencv.org/university/",
+      "desc": "Компьютерное зрение",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Unity Learn",
+      "url": "https://learn.unity.com/",
+      "desc": "Игровой движок",
+      "tags": [
+        "игры"
+      ]
+    },
+    {
+      "title": "Godot Docs",
+      "url": "https://docs.godotengine.org/en/stable/getting_started/introduction/index.html",
+      "desc": "Godot",
+      "tags": [
+        "игры"
+      ]
+    },
+    {
+      "title": "Scratch",
+      "url": "https://scratch.mit.edu/ideas",
+      "desc": "Программирование для детей",
+      "tags": [
+        "дети"
+      ]
+    },
+    {
+      "title": "Code.org",
+      "url": "https://code.org/",
+      "desc": "CS для школ",
+      "tags": [
+        "школа"
+      ]
+    },
+    {
+      "title": "CS Unplugged",
+      "url": "https://www.csunplugged.org/en/",
+      "desc": "CS без компьютера",
+      "tags": [
+        "школа"
+      ]
+    },
+    {
+      "title": "Blockly Games",
+      "url": "https://blockly.games/",
+      "desc": "Логика и код",
+      "tags": [
+        "дети"
+      ]
+    },
+    {
+      "title": "Elastic Search Training",
+      "url": "https://www.elastic.co/training/",
+      "desc": "Поиск и ELK",
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title": "Grafana Tutorials",
+      "url": "https://grafana.com/tutorials/",
+      "desc": "Мониторинг",
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title": "Prometheus Docs",
+      "url": "https://prometheus.io/docs/introduction/overview/",
+      "desc": "Метрики",
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title": "Terraform Learn",
+      "url": "https://developer.hashicorp.com/terraform/tutorials",
+      "desc": "IaC",
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title": "Ansible Docs",
+      "url": "https://docs.ansible.com/ansible/latest/getting_started/",
+      "desc": "Автоматизация",
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title": "CompTIA Free Resources",
+      "url": "https://www.comptia.org/training/resources",
+      "desc": "IT сертификация",
+      "tags": [
+        "IT"
+      ]
+    },
+    {
+      "title": "Cybrary Free",
+      "url": "https://www.cybrary.it/free-content",
+      "desc": "Кибербезопасность",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "title": "OWASP WebGoat",
+      "url": "https://owasp.org/www-project-webgoat/",
+      "desc": "Безопасность веб",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "title": "PortSwigger Academy",
+      "url": "https://portswigger.net/web-security",
+      "desc": "Web security",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "title": "StatQuest YouTube",
+      "url": "https://www.youtube.com/@statquest",
+      "desc": "Статистика и ML",
+      "tags": [
+        "статистика"
+      ]
+    },
+    {
+      "title": "Coursera Data Science",
+      "url": "https://www.coursera.org/browse/data-science",
+      "desc": "Data Science",
+      "tags": [
+        "DS"
+      ]
+    },
+    {
+      "title": "Excel — Microsoft Support",
+      "url": "https://support.microsoft.com/excel",
+      "desc": "Excel обучение",
+      "tags": [
+        "офис"
+      ]
+    },
+    {
+      "title": "Google Sheets",
+      "url": "https://support.google.com/docs/topic/9054603",
+      "desc": "Таблицы Google",
+      "tags": [
+        "офис"
+      ]
+    },
+    {
+      "title": "Power BI Learn",
+      "url": "https://learn.microsoft.com/power-bi/",
+      "desc": "Аналитика Power BI",
+      "tags": [
+        "аналитика"
+      ]
+    },
+    {
+      "title": "Tableau Free Training",
+      "url": "https://www.tableau.com/learn/training",
+      "desc": "Визуализация",
+      "tags": [
+        "аналитика"
+      ]
+    },
+    {
+      "title": "R for Data Science",
+      "url": "https://r4ds.hadley.nz/",
+      "desc": "Книга R",
+      "tags": [
+        "R"
+      ]
+    },
+    {
+      "title": "Statistical Learning",
+      "url": "https://www.statlearning.com/",
+      "desc": "ISLR книга и курсы",
+      "tags": [
+        "статистика"
+      ]
+    },
+    {
+      "title": "OpenIntro Statistics",
+      "url": "https://www.openintro.org/book/os/",
+      "desc": "Статистика учебник",
+      "tags": [
+        "статистика"
+      ]
+    },
+    {
+      "title": "Biology — Khan",
+      "url": "https://www.khanacademy.org/science/biology",
+      "desc": "Биология",
+      "tags": [
+        "биология"
+      ]
+    },
+    {
+      "title": "Chemistry — Khan",
+      "url": "https://www.khanacademy.org/science/chemistry",
+      "desc": "Химия",
+      "tags": [
+        "химия"
+      ]
+    },
+    {
+      "title": "Physics — Khan",
+      "url": "https://www.khanacademy.org/science/physics",
+      "desc": "Физика",
+      "tags": [
+        "физика"
+      ]
+    },
+    {
+      "title": "History — Khan",
+      "url": "https://www.khanacademy.org/humanities/world-history",
+      "desc": "История",
+      "tags": [
+        "история"
+      ]
+    },
+    {
+      "title": "Philosophy — OpenLearn",
+      "url": "https://www.open.edu/openlearn/society-politics-law/philosophy",
+      "desc": "Философия",
+      "tags": [
+        "гуманитарии"
+      ]
+    },
+    {
+      "title": "Coursera Business",
+      "url": "https://www.coursera.org/browse/business",
+      "desc": "Бизнес audit",
+      "tags": [
+        "бизнес"
+      ]
+    },
+    {
+      "title": "edX MBA Courses",
+      "url": "https://www.edx.org/learn/mba",
+      "desc": "MBA материалы",
+      "tags": [
+        "бизнес"
+      ]
+    },
+    {
+      "title": "Google Project Management",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "desc": "PM audit",
+      "tags": [
+        "менеджмент"
+      ]
+    },
+    {
+      "cat": "courses",
+      "title": "PokerStars School",
+      "url": "https://www.pokerstars.com/poker/learn/",
+      "desc": "Бесплатные уроки по холдему от PokerStars",
+      "tags": [
+        "покер",
+        "холдем"
+      ],
+      "free": true,
+      "added_at": "2026-05-19T06:51:31.602492+00:00",
+      "source": "weekly_auto"
+    },
+    {
+      "cat": "courses",
+      "title": "Upswing Poker — бесплатные статьи",
+      "url": "https://upswingpoker.com/",
+      "desc": "Стратегия NLHE, MTT, разборы раздач",
+      "tags": [
+        "покер",
+        "стратегия"
+      ],
+      "free": true,
+      "added_at": "2026-05-19T06:51:31.602492+00:00",
+      "source": "weekly_auto"
+    },
+    {
+      "cat": "courses",
+      "title": "SplitSuit Poker",
+      "url": "https://www.splitsuit.com/",
+      "desc": "Математика и тренировки для холдема",
+      "tags": [
+        "покер",
+        "математика"
+      ],
+      "free": true,
+      "added_at": "2026-05-19T06:51:31.602492+00:00",
+      "source": "weekly_auto"
+    }
+  ]
+}
