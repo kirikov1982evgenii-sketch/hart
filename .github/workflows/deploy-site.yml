@@ -1,0 +1,54 @@
+# Публикация статического сайта на GitHub Pages (бесплатно)
+# URL: https://kirikov1982evgenii-sketch.github.io/-/
+name: Deploy site (GitHub Pages)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate config.js
+        env:
+          HART_SITE_URL: https://kirikov1982evgenii-sketch.github.io/-
+          MARKET_PAYMENT_API: https://hart-payments.onrender.com
+          HART_TELEGRAM_BOT_USERNAME: uportbot
+          MARKET_PAY_CARD: "2200702158761978"
+          MARKET_PAY_BANK: "Т-Банк"
+          MARKET_PAY_NAME: "Евгений"
+          MARKET_PRICE_RUB: "199"
+          MARKET_PRICE_USD: "4.99"
+          MARKET_SUPPORT_EMAIL: freelancerwok@mail.ru
+          MARKET_OWNER_EMAIL: freelancerwok@mail.ru
+          MARKET_PAYPAL_EMAIL: freelancerwok@mail.ru
+        run: python scripts/gen_config.py
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

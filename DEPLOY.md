@@ -44,7 +44,16 @@
 
 ---
 
-## Шаг 3. Сайт (Cloudflare Pages)
+## Шаг 3. Сайт (GitHub Pages — уже настроено)
+
+В репозитории включён workflow **Deploy site (GitHub Pages)**.
+
+- URL сайта: **https://kirikov1982evgenii-sketch.github.io/-/**
+- При каждом `git push` в `main` сайт пересобирается автоматически.
+
+Проверка: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+### Альтернатива: Cloudflare Pages
 
 1. [dash.cloudflare.com](https://dash.cloudflare.com) → **Workers & Pages** → **Create** → **Pages** → Connect Git.
 2. Репозиторий — тот же.

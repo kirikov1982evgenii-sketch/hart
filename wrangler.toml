@@ -1,0 +1,7 @@
+# Cloudflare Pages (альтернатива: wrangler pages deploy)
+name = "hart-knowledge-club"
+compatibility_date = "2024-08-01"
+pages_build_output_dir = "."
+
+[vars]
+HART_TELEGRAM_BOT_USERNAME = "uportbot"

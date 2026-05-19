@@ -39,9 +39,9 @@ services:
       - key: HART_TELEGRAM_CHAT_ID
         sync: false
       - key: HART_SITE_URL
-        sync: false
+        value: "https://kirikov1982evgenii-sketch.github.io/-"
       - key: MARKET_CORS_ORIGINS
-        sync: false
+        value: "https://kirikov1982evgenii-sketch.github.io/-"
 
   - type: worker
     name: hart-telegram-bot
@@ -57,9 +57,9 @@ services:
       - key: HART_TELEGRAM_CHAT_ID
         sync: false
       - key: HART_SITE_URL
-        sync: false
+        value: "https://kirikov1982evgenii-sketch.github.io/-"
       - key: MARKET_PAYMENT_API
-        sync: false
+        value: "https://hart-payments.onrender.com"
       - key: MARKET_SUPPORT_EMAIL
         sync: false
       - key: MARKET_PAY_CARD
