@@ -249,7 +249,7 @@
         <h2 style="color:var(--gold);font-family:var(--font-display)">Оплата через Telegram</h2>
         <p>Сервер оплаты временно недоступен. Оплатите в боте — без карты для хостинга.</p>
         <p><b>Цена:</b> ${priceStr}</p>
-        <motion class="pay-details">${payDetailsHtml()}</div>
+        <div class="pay-details">${payDetailsHtml()}</div>
         <p class="pay-hint">В боте: /pay → email → перевод → фото чека</p>
         <a class="btn btn-gold btn-link" href="https://t.me/${bot}?start=pay" target="_blank" rel="noopener">Открыть @${bot}</a>
       </div>`;
