@@ -1,6 +1,6 @@
 # GitHub — готово
 
-**Репозиторий:** https://github.com/kirikov1982evgenii-sketch/-
+**Репозиторий:** https://github.com/kirikov1982evgenii-sketch/klub-znaniy-hart
 
 Код загружен в ветку `main`. Обновление с компьютера:
 
