@@ -18,8 +18,8 @@ ENV_PAYMENTS = {
     "MARKET_OWNER_EMAIL": "freelancerwok@mail.ru",
     "MARKET_PAY_SALT": "7F0mGMrqEKxFCaHQAECKnN7cFsDQF8Ch",
     "HART_TELEGRAM_CHAT_ID": "5286191569",
-    "HART_SITE_URL": "https://kirikov1982evgenii-sketch.github.io/hart",
-    "MARKET_CORS_ORIGINS": "https://kirikov1982evgenii-sketch.github.io/hart",
+    "HART_SITE_URL": "https://hart-club.ru",
+    "MARKET_CORS_ORIGINS": "https://hart-club.ru,https://www.hart-club.ru,https://kirikov1982evgenii-sketch.github.io/hart",
     "MARKET_SUPPORT_EMAIL": "freelancerwok@mail.ru",
     "MARKET_PAYPAL_EMAIL": "freelancerwok@mail.ru",
     "MARKET_PAY_CARD": "2200702158761978",
@@ -32,7 +32,7 @@ ENV_PAYMENTS = {
 
 ENV_BOT = {
     "HART_TELEGRAM_CHAT_ID": "5286191569",
-    "HART_SITE_URL": "https://kirikov1982evgenii-sketch.github.io/hart",
+    "HART_SITE_URL": "https://hart-club.ru",
     "MARKET_PAYMENT_API": "https://hart-payments.onrender.com",
     "MARKET_SUPPORT_EMAIL": "freelancerwok@mail.ru",
     "MARKET_PAY_CARD": "2200702158761978",

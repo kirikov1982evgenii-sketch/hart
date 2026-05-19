@@ -1,5 +1,5 @@
 ﻿# Render Blueprint: https://render.com/docs/blueprint-spec
-# Dashboard → New → Blueprint → repo hart → Apply
+# Dashboard → New → Blueprint → repo klub-znaniy-hart → Apply
 
 services:
   - type: web
@@ -41,9 +41,9 @@ services:
       - key: HART_TELEGRAM_CHAT_ID
         sync: false
       - key: HART_SITE_URL
-        value: "https://kirikov1982evgenii-sketch.github.io/hart"
+        value: "https://hart-club.ru"
       - key: MARKET_CORS_ORIGINS
-        value: "https://kirikov1982evgenii-sketch.github.io/hart"
+        value: "https://hart-club.ru,https://www.hart-club.ru,https://kirikov1982evgenii-sketch.github.io/hart"
 
   - type: worker
     name: hart-telegram-bot
@@ -61,7 +61,7 @@ services:
       - key: HART_TELEGRAM_CHAT_ID
         sync: false
       - key: HART_SITE_URL
-        value: "https://kirikov1982evgenii-sketch.github.io/hart"
+        value: "https://hart-club.ru"
       - key: MARKET_PAYMENT_API
         value: "https://hart-payments.onrender.com"
       - key: MARKET_SUPPORT_EMAIL

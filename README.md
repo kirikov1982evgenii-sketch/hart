@@ -1,6 +1,6 @@
 ﻿# Клуб знаний HART
 
-**Сайт (опубликован):** https://kirikov1982evgenii-sketch.github.io/hart/  
+**Сайт:** https://hart-club.ru/  
 **Репозиторий:** [hart](https://github.com/kirikov1982evgenii-sketch/hart)
 
 Онлайн-каталог обучения: **231+ программ** (интерактивы, методички, курсы).  

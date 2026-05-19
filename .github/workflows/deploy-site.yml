@@ -1,5 +1,5 @@
 ﻿# Публикация статического сайта на GitHub Pages (бесплатно)
-# URL: https://kirikov1982evgenii-sketch.github.io/hart/
+# URL: https://hart-club.ru/
 name: Deploy site (GitHub Pages)
 
 on:
@@ -31,7 +31,8 @@ jobs:
 
       - name: Generate config.js
         env:
-          HART_SITE_URL: https://kirikov1982evgenii-sketch.github.io/hart
+          HART_SITE_URL: https://hart-club.ru
+          MARKET_CORS_ORIGINS: https://hart-club.ru,https://www.hart-club.ru
           MARKET_PAYMENT_API: ${{ vars.MARKET_PAYMENT_API || 'https://hart-payments.onrender.com' }}
           HART_TELEGRAM_BOT_USERNAME: uportbot
           MARKET_PAY_CARD: "2200702158761978"
