@@ -1,4 +1,19 @@
-# Как залить эту папку на GitHub
+# GitHub — готово
+
+**Репозиторий:** https://github.com/kirikov1982evgenii-sketch/-
+
+Код загружен в ветку `main`. Обновление с компьютера:
+
+```bat
+cd /d "C:\Users\Falcoone\Desktop\Клуб-знаний-HART-GitHub"
+git add .
+git commit -m "описание изменений"
+git push
+```
+
+---
+
+# Как залить эту папку на GitHub (архив)
 
 **Имя репозитория (рекомендуется):** `klub-znaniy-hart` или `hart-knowledge-club`  
 **Описание репозитория:** `Клуб знаний HART — каталог курсов, оплата, Telegram-бот`

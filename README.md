@@ -1,5 +1,7 @@
 # Клуб знаний HART
 
+**Репозиторий:** [github.com/kirikov1982evgenii-sketch/-](https://github.com/kirikov1982evgenii-sketch/-)
+
 Онлайн-каталог обучения: **231+ программ** (интерактивы, методички, курсы).  
 Оплата **199 ₽** / **$4.99**, личный кабинет, Telegram-бот [@uportbot](https://t.me/uportbot).
 
