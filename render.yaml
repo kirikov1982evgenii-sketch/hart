@@ -1,11 +1,13 @@
 # Render Blueprint: https://render.com/docs/blueprint-spec
-# После push в Git: Dashboard → New → Blueprint → подключить репозиторий
+# Dashboard → New → Blueprint → repo klub-znaniy-hart → Apply
 
 services:
   - type: web
     name: hart-payments
     runtime: python
     plan: free
+    repo: https://github.com/kirikov1982evgenii-sketch/klub-znaniy-hart
+    branch: main
     buildCommand: pip install -r requirements.txt
     startCommand: python payment_server.py
     healthCheckPath: /api/health
@@ -17,7 +19,7 @@ services:
       - key: MARKET_PAY_SALT
         sync: false
       - key: MARKET_OWNER_EMAIL
-        sync: false
+        value: freelancerwok@mail.ru
       - key: MARKET_OWNER_PIN
         sync: false
       - key: MARKET_PAY_CARD
@@ -31,9 +33,9 @@ services:
       - key: MARKET_PRICE_USD
         value: "4.99"
       - key: MARKET_PAYPAL_EMAIL
-        sync: false
+        value: freelancerwok@mail.ru
       - key: MARKET_SUPPORT_EMAIL
-        sync: false
+        value: freelancerwok@mail.ru
       - key: HART_TELEGRAM_BOT_TOKEN
         sync: false
       - key: HART_TELEGRAM_CHAT_ID
@@ -47,6 +49,8 @@ services:
     name: hart-telegram-bot
     runtime: python
     plan: free
+    repo: https://github.com/kirikov1982evgenii-sketch/klub-znaniy-hart
+    branch: main
     buildCommand: pip install -r requirements.txt
     startCommand: python telegram_bot.py
     envVars:
@@ -61,7 +65,7 @@ services:
       - key: MARKET_PAYMENT_API
         value: "https://hart-payments.onrender.com"
       - key: MARKET_SUPPORT_EMAIL
-        sync: false
+        value: freelancerwok@mail.ru
       - key: MARKET_PAY_CARD
         value: "2200702158761978"
       - key: MARKET_PAY_BANK
