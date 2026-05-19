@@ -36,6 +36,7 @@ def main() -> None:
         "ownerEmail": env("MARKET_OWNER_EMAIL", "freelancerwok@mail.ru"),
         "telegramBot": f"https://t.me/{bot}",
         "telegramBotName": bot,
+        "yandexMetrikaId": env("HART_YANDEX_METRIKA_ID", ""),
     }
 
     lines = ["window.SITE_CONFIG = " + json.dumps(cfg, ensure_ascii=False, indent=2) + ";", ""]

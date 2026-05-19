@@ -35,6 +35,7 @@ from security_common import (
     rl_claim_email,
     rl_code,
     rl_user,
+    rl_views,
 )
 from server_common import bind_host, service_port
 
@@ -42,7 +43,9 @@ BASE = Path(__file__).resolve().parent
 DATA = BASE / "data"
 CLAIMS_FILE = DATA / "payment_claims.json"
 USERS_FILE = DATA / "users.json"
+VIEWS_FILE = DATA / "site_views.json"
 RECEIPTS = DATA / "receipts"
+BOOTSTRAP_VIEWS = max(0, int(os.getenv("HART_VIEWS_BOOTSTRAP", "12847")))
 
 load_env_local()
 PORT = service_port("PAYMENT_API_PORT", 8766)
@@ -134,6 +137,36 @@ def load_users() -> dict:
     if not USERS_FILE.is_file():
         return {"users": {}}
     return json.loads(USERS_FILE.read_text(encoding="utf-8"))
+
+
+def load_views() -> dict:
+    DATA.mkdir(parents=True, exist_ok=True)
+    if not VIEWS_FILE.is_file():
+        return {
+            "total": BOOTSTRAP_VIEWS,
+            "pages": {"index": 0},
+            "updated": datetime.now(timezone.utc).isoformat(),
+        }
+    data = json.loads(VIEWS_FILE.read_text(encoding="utf-8"))
+    if "total" not in data:
+        data["total"] = BOOTSTRAP_VIEWS
+    data.setdefault("pages", {})
+    return data
+
+
+def save_views(data: dict) -> None:
+    VIEWS_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def bump_views(page: str) -> dict:
+    page = re.sub(r"[^a-z0-9_-]", "", (page or "index").lower())[:32] or "index"
+    data = load_views()
+    data["total"] = int(data.get("total", BOOTSTRAP_VIEWS)) + 1
+    pages = data.setdefault("pages", {})
+    pages[page] = int(pages.get(page, 0)) + 1
+    data["updated"] = datetime.now(timezone.utc).isoformat()
+    save_views(data)
+    return data
 
 
 def save_users(data: dict) -> None:
@@ -313,6 +346,21 @@ class Handler(BaseHTTPRequestHandler):
                 region = "intl"
             return self._json(200, {"ok": True, **pricing_for_region(region)})
 
+        if parsed.path == "/api/views":
+            if not rate_limit_or_429(self, rl_views, ip):
+                return
+            data = load_views()
+            total = int(data.get("total", BOOTSTRAP_VIEWS))
+            return self._json(
+                200,
+                {
+                    "ok": True,
+                    "total": total,
+                    "pages": data.get("pages", {}),
+                    "updated": data.get("updated"),
+                },
+            )
+
         if parsed.path == "/api/owner/dashboard":
             if not rate_limit_or_429(self, rl_admin, ip):
                 return
@@ -391,6 +439,16 @@ class Handler(BaseHTTPRequestHandler):
         data = read_json_body(self)
         if data is None:
             return self._json(400, {"ok": False, "error": "Некорректный запрос"})
+
+        if parsed.path == "/api/views/hit":
+            if not rate_limit_or_429(self, rl_views, ip):
+                return
+            page = str(data.get("page", "index"))
+            views = bump_views(page)
+            return self._json(
+                200,
+                {"ok": True, "total": int(views.get("total", BOOTSTRAP_VIEWS))},
+            )
 
         if parsed.path == "/api/claim":
             if not rate_limit_or_429(self, rl_claim, ip):

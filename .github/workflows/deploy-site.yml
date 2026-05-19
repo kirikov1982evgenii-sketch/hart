@@ -33,7 +33,8 @@ jobs:
         env:
           HART_SITE_URL: https://hart-club.ru
           MARKET_CORS_ORIGINS: https://hart-club.ru,https://www.hart-club.ru
-          MARKET_PAYMENT_API: ${{ vars.MARKET_PAYMENT_API || 'https://hart-payments.onrender.com' }}
+          MARKET_PAYMENT_API: ${{ vars.MARKET_PAYMENT_API || 'https://eg1982.pythonanywhere.com' }}
+          HART_YANDEX_METRIKA_ID: ${{ vars.HART_YANDEX_METRIKA_ID || '' }}
           HART_TELEGRAM_BOT_USERNAME: uportbot
           MARKET_PAY_CARD: "2200702158761978"
           MARKET_PAY_BANK: "Т-Банк"

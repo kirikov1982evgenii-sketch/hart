@@ -231,6 +231,27 @@ body {
   text-decoration: underline;
 }
 
+.site-share-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.site-share-btn {
+  font-size: 0.8rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.site-share-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold-light);
+}
+
 .site-share-copy {
   margin-left: auto;
 }
@@ -332,7 +353,7 @@ body {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
   margin: 2rem 0;
 }

@@ -157,6 +157,7 @@ rl_claim = RateLimiter(8, 3600)
 rl_claim_email = RateLimiter(3, 86400)
 rl_admin = RateLimiter(40, 3600)
 rl_user = RateLimiter(30, 3600)
+rl_views = RateLimiter(180, 3600)
 pin_guard = PinGuard()
 
 
