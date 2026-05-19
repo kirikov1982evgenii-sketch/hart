@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Сборка data/resources.json из каталога, премиум-курсов и базовых разделов."""
 import json
 from datetime import date

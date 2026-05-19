@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   const price = () => window.HartRegion?.formatPrice?.() || "199 ₽";
   function t(k) {
     return window.HartI18n?.t?.(k) || k;

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Проверка оплат для агента Cursor: список, просмотр чека, подтверждение."""
 from __future__ import annotations
 

@@ -1,6 +1,6 @@
-# GitHub — готово
+﻿# GitHub — готово
 
-**Репозиторий:** https://github.com/kirikov1982evgenii-sketch/klub-znaniy-hart
+**Репозиторий:** https://github.com/kirikov1982evgenii-sketch/hart
 
 Код загружен в ветку `main`. Обновление с компьютера:
 
@@ -15,7 +15,7 @@ git push
 
 # Как залить эту папку на GitHub (архив)
 
-**Имя репозитория (рекомендуется):** `klub-znaniy-hart` или `hart-knowledge-club`  
+**Имя репозитория (рекомендуется):** `hart` или `hart-knowledge-club`  
 **Описание репозитория:** `Клуб знаний HART — каталог курсов, оплата, Telegram-бот`
 
 ## Через сайт github.com
@@ -34,7 +34,7 @@ git init
 git add .
 git commit -m "Клуб знаний HART — каталог и оплата"
 git branch -M main
-git remote add origin https://github.com/ВАШ_ЛОГИН/klub-znaniy-hart.git
+git remote add origin https://github.com/ВАШ_ЛОГИН/hart.git
 git push -u origin main
 ```
 

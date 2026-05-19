@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Безопасная раздача статики: без data/receipts, с заголовками и лимитом запросов."""
 from __future__ import annotations
 

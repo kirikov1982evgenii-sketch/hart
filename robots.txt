@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Disallow: /admin-payments.html
 Disallow: /admin.html
 Disallow: /data/

@@ -1,4 +1,4 @@
-/** Шапка, подвал, язык и регион. */
+﻿/** Шапка, подвал, язык и регион. */
 (function () {
   const cfg = () => window.SITE_CONFIG || {};
   const brand = () => cfg().brand || "Клуб знаний";
@@ -97,6 +97,7 @@
         <p class="footer-brand">${brand()} <span>${accent()}</span></p>
         <p class="footer-tagline">${cfg().tagline || ""}</p>
         <p>
+          <a href="${(window.HartSiteUrl?.base?.() || cfg().siteUrl || "").replace(/\/$/, "")}/" target="_blank" rel="noopener">${window.HartSiteUrl?.pretty?.() || "hart"}</a> ·
           <a href="support.html" data-i18n="nav.support">Support</a> ·
           <a href="${cfg().telegramBot || "https://t.me/uportbot"}" target="_blank" rel="noopener">@uportbot</a>
         </p>

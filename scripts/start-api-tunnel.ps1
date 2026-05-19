@@ -1,4 +1,4 @@
-# Временный публичный API (пока Render не Live). ПК должен быть включён.
+﻿# Временный публичный API (пока Render не Live). ПК должен быть включён.
 $ErrorActionPreference = "Stop"
 $root = Split-Path $PSScriptRoot -Parent
 Set-Location $root

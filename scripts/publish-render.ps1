@@ -1,6 +1,6 @@
-# Публикация API и бота на Render (один раз)
+﻿# Публикация API и бота на Render (один раз)
 $ErrorActionPreference = "Stop"
-$repo = "https://github.com/kirikov1982evgenii-sketch/klub-znaniy-hart"
+$repo = "https://github.com/kirikov1982evgenii-sketch/hart"
 $blueprint = "https://dashboard.render.com/blueprint/new?repo=$([uri]::EscapeDataString($repo))"
 $secretsFile = Join-Path $env:USERPROFILE "Desktop\DEPLOY-HART-Render.txt"
 if (-not (Test-Path $secretsFile)) {

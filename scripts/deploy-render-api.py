@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Деплой на Render через API. Положите ключ в Desktop/render-api-key.txt (одна строка rnd_...)."""
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-REPO = "https://github.com/kirikov1982evgenii-sketch/klub-znaniy-hart"
+REPO = "https://github.com/kirikov1982evgenii-sketch/hart"
 BRANCH = "main"
 KEY_FILE = Path.home() / "Desktop" / "render-api-key.txt"
 
@@ -18,8 +18,8 @@ ENV_PAYMENTS = {
     "MARKET_OWNER_EMAIL": "freelancerwok@mail.ru",
     "MARKET_PAY_SALT": "7F0mGMrqEKxFCaHQAECKnN7cFsDQF8Ch",
     "HART_TELEGRAM_CHAT_ID": "5286191569",
-    "HART_SITE_URL": "https://kirikov1982evgenii-sketch.github.io/klub-znaniy-hart",
-    "MARKET_CORS_ORIGINS": "https://kirikov1982evgenii-sketch.github.io/klub-znaniy-hart",
+    "HART_SITE_URL": "https://kirikov1982evgenii-sketch.github.io/hart",
+    "MARKET_CORS_ORIGINS": "https://kirikov1982evgenii-sketch.github.io/hart",
     "MARKET_SUPPORT_EMAIL": "freelancerwok@mail.ru",
     "MARKET_PAYPAL_EMAIL": "freelancerwok@mail.ru",
     "MARKET_PAY_CARD": "2200702158761978",
@@ -32,7 +32,7 @@ ENV_PAYMENTS = {
 
 ENV_BOT = {
     "HART_TELEGRAM_CHAT_ID": "5286191569",
-    "HART_SITE_URL": "https://kirikov1982evgenii-sketch.github.io/klub-znaniy-hart",
+    "HART_SITE_URL": "https://kirikov1982evgenii-sketch.github.io/hart",
     "MARKET_PAYMENT_API": "https://hart-payments.onrender.com",
     "MARKET_SUPPORT_EMAIL": "freelancerwok@mail.ru",
     "MARKET_PAY_CARD": "2200702158761978",

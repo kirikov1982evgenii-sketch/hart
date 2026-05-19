@@ -1,4 +1,4 @@
-const api = (window.SITE_CONFIG?.paymentApiUrl || "http://127.0.0.1:8766").replace(/\/$/, "");
+﻿const api = (window.SITE_CONFIG?.paymentApiUrl || "http://127.0.0.1:8766").replace(/\/$/, "");
 
 async function load() {
   const pin = document.getElementById("admin-pin").value;

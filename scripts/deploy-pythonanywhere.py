@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Деплой на PythonAnywhere (eg1982) через API."""
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ from pathlib import Path
 USERNAME = "eg1982"
 HOST = "www.pythonanywhere.com"
 DOMAIN = f"{USERNAME}.pythonanywhere.com"
-REPO_DIR = f"/home/{USERNAME}/klub-znaniy-hart"
+REPO_DIR = f"/home/{USERNAME}/hart"
 WSGI_PATH = f"/var/www/{USERNAME}_pythonanywhere_com_wsgi.py"
 TOKEN_FILE = Path.home() / "Desktop" / "pythonanywhere-token.txt"
 BASE = Path(__file__).resolve().parent.parent
@@ -102,7 +102,7 @@ def main() -> None:
 
     run_console(
         tok,
-        f"cd ~ && (test -d klub-znaniy-hart && cd klub-znaniy-hart && git pull) || git clone https://github.com/kirikov1982evgenii-sketch/klub-znaniy-hart.git",
+        f"cd ~ && (test -d hart && cd hart && git pull) || git clone https://github.com/kirikov1982evgenii-sketch/hart.git",
     )
 
     env_local = BASE / ".env.local"
@@ -115,7 +115,7 @@ def main() -> None:
 
     wsgi = (BASE / "pythonanywhere-wsgi-snippet.py").read_text(encoding="utf-8")
     wsgi = wsgi.replace(
-        'path = "/home/eg1982/klub-znaniy-hart"',
+        'path = "/home/eg1982/hart"',
         f'path = "{REPO_DIR}"',
     )
     upload_file(tok, WSGI_PATH, wsgi.encode("utf-8"))

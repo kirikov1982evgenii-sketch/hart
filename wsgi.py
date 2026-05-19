@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """WSGI для PythonAnywhere: API оплат + webhook Telegram (без Render и без карты)."""
 from __future__ import annotations
 

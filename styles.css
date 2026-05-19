@@ -196,6 +196,45 @@ body {
 
 .hero-actions .btn { min-width: 180px; }
 
+.site-share-wrap {
+  margin: 0 0 1.25rem;
+}
+
+.site-share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface2) 100%);
+  border-radius: var(--radius);
+}
+
+.site-share-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.site-share-url {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold-light);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.site-share-url:hover {
+  text-decoration: underline;
+}
+
+.site-share-copy {
+  margin-left: auto;
+}
+
 .promo-bar {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

@@ -1,4 +1,4 @@
-/** Защита от open redirect и опасных ссылок в URL. */
+﻿/** Защита от open redirect и опасных ссылок в URL. */
 (function (global) {
   function isSafeHttpUrl(url) {
     if (!url || typeof url !== "string") return false;

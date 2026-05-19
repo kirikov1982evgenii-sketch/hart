@@ -1,4 +1,4 @@
-// Локально: скопируйте в config.js
+﻿// Локально: скопируйте в config.js
 // Продакшен: python scripts/gen_config.py (переменные из хостинга)
 window.SITE_CONFIG = {
   brand: "Клуб знаний",

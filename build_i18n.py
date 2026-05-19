@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Сборка data/i18n.json — UI-строки для 40+ языков (EN fallback)."""
 import json
 from pathlib import Path

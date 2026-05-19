@@ -1,4 +1,4 @@
-# Автозапуск API + бота при входе в Windows (без Render)
+﻿# Автозапуск API + бота при входе в Windows (без Render)
 $root = Split-Path $PSScriptRoot -Parent
 $bat = Join-Path $root "start-site.bat"
 $taskName = "HartKnowledgeClub"

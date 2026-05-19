@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   const params = new URLSearchParams(location.search);
   const courseId = params.get("id") || "";
   const price = window.SITE_CONFIG?.accessPrice || 199;

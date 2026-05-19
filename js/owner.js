@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   const cfg = () => window.SITE_CONFIG || {};
   const api = () => (cfg().paymentApiUrl || "http://127.0.0.1:8766").replace(/\/$/, "");
   const OWNER = (cfg().ownerEmail || "freelancerwok@mail.ru").toLowerCase();

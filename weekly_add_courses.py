@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Каждую неделю добавляет 2–3 курса из очереди и пересобирает каталог."""
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Telegram-бот «Клуб знаний HART» — поддержка, оплата, каталог."""
 from __future__ import annotations
 

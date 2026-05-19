@@ -1,4 +1,4 @@
-window.SITE_CONFIG = {
+﻿window.SITE_CONFIG = {
   "brand": "Клуб знаний",
   "accent": "HART",
   "tagline": "Для нас обучение — это искусство",

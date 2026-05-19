@@ -1,4 +1,4 @@
-/** Оплата: RU 199 ₽ / INT $4.99 */
+﻿/** Оплата: RU 199 ₽ / INT $4.99 */
 (function () {
   const params = new URLSearchParams(location.search);
   const courseId = (params.get("id") || "").slice(0, 80);

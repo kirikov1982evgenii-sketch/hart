@@ -1,4 +1,4 @@
-/** Сессия пользователя: email + код доступа в sessionStorage. */
+﻿/** Сессия пользователя: email + код доступа в sessionStorage. */
 (function (global) {
   const KEY_EMAIL = "hart_user_email";
   const KEY_CODE = "hart_user_code";

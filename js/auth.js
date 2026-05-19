@@ -1,4 +1,4 @@
-/** Регистрация и вход: Supabase Auth (бесплатный тариф). */
+﻿/** Регистрация и вход: Supabase Auth (бесплатный тариф). */
 (function (global) {
   const cfg = () => global.SITE_CONFIG || {};
   let sb = null;

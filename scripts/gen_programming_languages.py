@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Генерация data/programming_languages_courses.json — отдельный курс на каждый ЯП."""
 from __future__ import annotations
 

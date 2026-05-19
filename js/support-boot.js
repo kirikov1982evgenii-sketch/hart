@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", async () => {
+﻿document.addEventListener("DOMContentLoaded", async () => {
   if (window.HartI18n && !window.HartI18n.ready) await window.HartI18n.init();
   const c = window.SITE_CONFIG || {};
   const em = c.supportEmail || "freelancerwok@mail.ru";

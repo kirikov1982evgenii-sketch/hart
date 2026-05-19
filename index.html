@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
@@ -30,6 +30,7 @@
       <div class="stat"><b id="stat-cats">3</b><span data-i18n="stat.sections">раздела</span></div>
       <div class="stat"><b id="stat-price">199 ₽</b><span data-i18n="stat.price">за курс</span></div>
     </section>
+    <div id="site-share-bar" class="site-share-wrap"></div>
     <section class="promo-bar" aria-label="Быстрые ссылки">
       <a href="cabinet.html" class="promo-item" data-i18n="promo.cabinet">Личный кабинет — ваши курсы после оплаты</a>
       <a href="support.html" class="promo-item" data-i18n="promo.support">Поддержка и вопросы по оплате</a>
@@ -45,10 +46,17 @@
   <button type="button" id="scroll-top" class="scroll-top" aria-label="Наверх" hidden>↑</button>
   <script src="js/ready.js"></script>
   <script src="config.js"></script>
+  <script src="js/site-url.js?v=1"></script>
   <script src="js/i18n.js?v=3.4"></script>
   <script src="js/region.js"></script>
   <script src="js/session.js"></script>
   <script src="js/layout.js?v=3.4"></script>
   <script src="app.js?v=3.4"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      window.HartSiteUrl?.setCanonical?.();
+      window.HartSiteUrl?.mountShare?.("site-share-bar");
+    });
+  </script>
 </body>
 </html>

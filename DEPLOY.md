@@ -1,4 +1,4 @@
-# Публикация «Клуб знаний HART»
+﻿# Публикация «Клуб знаний HART»
 
 Проект из трёх частей:
 
@@ -48,7 +48,7 @@
 
 В репозитории включён workflow **Deploy site (GitHub Pages)**.
 
-- URL сайта: **https://kirikov1982evgenii-sketch.github.io/klub-znaniy-hart/**
+- URL сайта: **https://kirikov1982evgenii-sketch.github.io/hart/**
 - При каждом `git push` в `main` сайт пересобирается автоматически.
 
 Проверка: **Settings → Pages → Build and deployment → Source: GitHub Actions**.

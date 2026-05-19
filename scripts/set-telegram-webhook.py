@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Установить webhook Telegram на URL PythonAnywhere (или другой хост)."""
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Генерация config.js из переменных окружения (Cloudflare Pages / Render build)."""
 from __future__ import annotations
 

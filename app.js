@@ -1,4 +1,4 @@
-let DATA = { categories: [], resources: [], meta: {} };
+﻿let DATA = { categories: [], resources: [], meta: {} };
 let activeCat = "all";
 let query = "";
 

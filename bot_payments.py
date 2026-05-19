@@ -1,4 +1,4 @@
-"""Оплата через Telegram-бота (связка с payment_server API)."""
+﻿"""Оплата через Telegram-бота (связка с payment_server API)."""
 from __future__ import annotations
 
 import base64
