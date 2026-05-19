@@ -2,7 +2,11 @@
 $ErrorActionPreference = "Stop"
 $repo = "https://github.com/kirikov1982evgenii-sketch/klub-znaniy-hart"
 $blueprint = "https://dashboard.render.com/blueprint/new?repo=$([uri]::EscapeDataString($repo))"
-$secretsFile = "$env:USERPROFILE\Desktop\ДЕПЛОЙ-HART-переменные-Render.txt"
+$secretsFile = Join-Path $env:USERPROFILE "Desktop\DEPLOY-HART-Render.txt"
+if (-not (Test-Path $secretsFile)) {
+    $alt = Get-ChildItem (Join-Path $env:USERPROFILE "Desktop") -Filter "*Render*.txt" -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($alt) { $secretsFile = $alt.FullName }
+}
 
 Write-Host ""
 Write-Host "=== Публикация API (Render) ===" -ForegroundColor Cyan
