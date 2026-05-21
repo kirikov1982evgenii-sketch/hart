@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import urllib.parse
 import urllib.request
@@ -10,7 +11,7 @@ import uuid
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
-SITE = "https://hart-club.ru"
+SITE = os.getenv("HART_SITE_URL", "http://hart-club.ru").rstrip("/")
 SITEMAP = f"{SITE}/sitemap.xml"
 KEY_FILE = BASE / "indexnow-key.txt"
 KEY_TXT = None  # set after load
@@ -85,14 +86,23 @@ def main() -> None:
     check_files()
     print("Ping sitemaps:")
     ping_sitemaps()
-    urls = [SITE + "/", SITE + "/?lang=en", SITE + "/support.html"]
-    res = json.loads((BASE / "data" / "resources.json").read_text(encoding="utf-8"))
-    for r in res.get("resources", [])[:20]:
-        cid = r.get("id")
-        if cid:
-            urls.append(f"{SITE}/course.html?id={urllib.parse.quote(str(cid))}")
-    print(f"IndexNow ({len(urls)} URLs):")
-    indexnow_submit(key, urls)
+    urls = [SITE + "/", SITE + "/?lang=en", SITE + "/support.html", SITE + "/pay.html"]
+    sm = BASE / "sitemap.xml"
+    if sm.is_file():
+        import re as _re
+
+        urls = list(dict.fromkeys(_re.findall(r"<loc>([^<]+)</loc>", sm.read_text(encoding="utf-8"))))
+    else:
+        res = json.loads((BASE / "data" / "resources.json").read_text(encoding="utf-8"))
+        for r in res.get("resources", []):
+            cid = r.get("id")
+            if cid:
+                urls.append(f"{SITE}/course.html?id={urllib.parse.quote(str(cid))}")
+    batch = 500
+    for i in range(0, len(urls), batch):
+        chunk = urls[i : i + batch]
+        print(f"IndexNow batch {i // batch + 1} ({len(chunk)} URLs):")
+        indexnow_submit(key, chunk)
     print("Done. Commit", KEY_TXT.name, "and indexnow-key.txt to GitHub.")
 
 

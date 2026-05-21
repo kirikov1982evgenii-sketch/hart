@@ -1,6 +1,18 @@
 # Google и Yandex: как начать находить сайт
 
-Сайт: **https://hart-club.ru** (пока можно открывать **http://**, если HTTPS ещё не готов).
+Сайт: **http://hart-club.ru** (работает стабильно). HTTPS на GitHub Pages пока не принудительный.
+
+## Уже сделано автоматически (21.05.2026)
+
+- **IndexNow → Яндекс:** отправлены **235 URL** из sitemap (`success: true`)
+- **sitemap.xml** и **robots.txt** на сайте, карта в robots
+- **Деплой GitHub Pages** запущен, файлы IndexNow на сайте
+- **API просмотров** на PythonAnywhere обновлён (`/api/views`)
+- Открыты вкладки Google Search Console и Яндекс.Вебмастер (если браузер на ПК)
+
+## Осталось только с вашим входом в Google (5 мин)
+
+Google **не даёт** подтвердить домен без входа в ваш аккаунт Google. Нужен один раз TXT в REG.RU или файл `regru-api.txt` на рабочем столе (см. `regru-api-СОЗДАТЬ.txt`).
 
 ## 1. Google Search Console (Европа, США)
 
