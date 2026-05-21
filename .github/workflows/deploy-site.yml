@@ -46,6 +46,11 @@ jobs:
           MARKET_PAYPAL_EMAIL: freelancerwok@mail.ru
         run: python scripts/gen_config.py
 
+      - name: Generate sitemap.xml
+        env:
+          HART_SITE_URL: https://hart-club.ru
+        run: python scripts/gen_sitemap.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

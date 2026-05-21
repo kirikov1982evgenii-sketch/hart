@@ -135,8 +135,15 @@
     const res = await fetch("data/i18n.json");
     if (!res.ok) throw new Error("i18n.json");
     catalog = await res.json();
+    const qp = new URLSearchParams(global.location?.search || "");
+    const urlLang = (qp.get("lang") || "").toLowerCase().slice(0, 8);
     const saved = localStorage.getItem(STORAGE_LANG);
-    lang = saved && catalog[saved] ? saved : browserLang();
+    if (urlLang && catalog[urlLang]) {
+      lang = urlLang;
+      localStorage.setItem(STORAGE_LANG, lang);
+    } else {
+      lang = saved && catalog[saved] ? saved : browserLang();
+    }
     if (!saved) localStorage.setItem(STORAGE_LANG, lang);
     ready = true;
     apply();

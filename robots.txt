@@ -1,5 +1,9 @@
 ﻿User-agent: *
 Disallow: /admin-payments.html
 Disallow: /admin.html
+Disallow: /owner.html
+Disallow: /cabinet.html
 Disallow: /data/
 Disallow: /scripts/
+
+Sitemap: https://hart-club.ru/sitemap.xml

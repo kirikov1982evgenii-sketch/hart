@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Курс — Клуб знаний HART</title>
+  <meta name="description" content="Программа обучения в клубе знаний HART. Доступ после оплаты.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,10 +17,17 @@
     <div id="site-footer"></div>
   </div>
   <script src="config.js"></script>
-  <script src="js/i18n.js"></script>
+  <script src="js/site-url.js?v=2"></script>
+  <script src="js/seo.js?v=1"></script>
+  <script src="js/i18n.js?v=3.5"></script>
   <script src="js/region.js"></script>
   <script src="js/session.js"></script>
   <script src="js/layout.js"></script>
   <script src="js/course.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      window.HartSeo?.init?.("course");
+    });
+  </script>
 </body>
 </html>

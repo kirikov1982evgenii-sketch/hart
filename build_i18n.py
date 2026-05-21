@@ -91,6 +91,17 @@ EN = {
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
     "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99.",
 }
 
 RU = {
@@ -180,6 +191,17 @@ RU = {
     "region.intl": "Европа и Америка · $4.99",
     "empty.search": "Ничего не найдено.",
     "err.load": "Ошибка загрузки. Запустите start-site.bat",
+    "seo.index.title": "Клуб знаний HART — каталог из 231+ программ",
+    "seo.index.description": "231+ программ: интерактивы, методички и курсы. Оплата 199 ₽, доступ в личном кабинете.",
+    "seo.support.title": "Поддержка — Клуб знаний HART",
+    "seo.support.description": "Вопросы по оплате и доступу к курсам HART. Email и Telegram.",
+    "seo.pay.title": "Оплата — Клуб знаний HART",
+    "seo.pay.description": "Оплата доступа к курсу: карта или PayPal. Доступ после проверки.",
+    "seo.course.pending_title": "Курс — Клуб знаний HART",
+    "seo.course.pending_description": "Программа обучения. Полный доступ после оплаты в клубе знаний HART.",
+    "seo.course.title": "{title} — Клуб знаний HART",
+    "seo.course.description": "{title}. {desc} Полный доступ после оплаты.",
+    "seo.course.description_en": "{title} — программа в клубе знаний HART. {desc}",
 }
 
 PACKS = {

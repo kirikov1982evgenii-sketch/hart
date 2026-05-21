@@ -18,7 +18,11 @@
       root.innerHTML = '<p class="empty">Курс не найден. <a href="index.html">В каталог</a></p>';
       return;
     }
-    document.title = course.title + " — Клуб знаний HART";
+    if (window.HartSeo?.setCourse) {
+      window.HartSeo.setCourse(course);
+    } else {
+      document.title = course.title + " — Клуб знаний HART";
+    }
     const bc = document.getElementById("bc-title");
     if (bc) bc.textContent = course.title;
 
