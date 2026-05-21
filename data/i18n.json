@@ -259,7 +259,18 @@
     "region.ru": "Россия и СНГ · 199 ₽",
     "region.intl": "Европа и Америка · $4.99",
     "empty.search": "Ничего не найдено.",
-    "err.load": "Ошибка загрузки. Запустите start-site.bat"
+    "err.load": "Ошибка загрузки. Запустите start-site.bat",
+    "seo.index.title": "Клуб знаний HART — каталог из 231+ программ",
+    "seo.index.description": "231+ программ: интерактивы, методички и курсы. Оплата 199 ₽, доступ в личном кабинете.",
+    "seo.support.title": "Поддержка — Клуб знаний HART",
+    "seo.support.description": "Вопросы по оплате и доступу к курсам HART. Email и Telegram.",
+    "seo.pay.title": "Оплата — Клуб знаний HART",
+    "seo.pay.description": "Оплата доступа к курсу: карта или PayPal. Доступ после проверки.",
+    "seo.course.pending_title": "Курс — Клуб знаний HART",
+    "seo.course.pending_description": "Программа обучения. Полный доступ после оплаты в клубе знаний HART.",
+    "seo.course.title": "{title} — Клуб знаний HART",
+    "seo.course.description": "{title}. {desc} Полный доступ после оплаты.",
+    "seo.course.description_en": "{title} — программа в клубе знаний HART. {desc}"
   },
   "en": {
     "nav.catalog": "Catalog",
@@ -347,7 +358,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "de": {
     "nav.catalog": "Katalog",
@@ -435,7 +457,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "fr": {
     "nav.catalog": "Catalogue",
@@ -523,7 +556,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "es": {
     "nav.catalog": "Catálogo",
@@ -611,7 +655,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "pt": {
     "nav.catalog": "Catálogo",
@@ -699,7 +754,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "it": {
     "nav.catalog": "Catalogo",
@@ -787,7 +853,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "pl": {
     "nav.catalog": "Katalog",
@@ -875,7 +952,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "uk": {
     "nav.catalog": "Каталог",
@@ -963,7 +1051,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "tr": {
     "nav.catalog": "Katalog",
@@ -1051,7 +1150,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "zh": {
     "nav.catalog": "目录",
@@ -1139,7 +1249,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "ja": {
     "nav.catalog": "カタログ",
@@ -1227,7 +1348,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "ko": {
     "nav.catalog": "카탈로그",
@@ -1315,7 +1447,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "ar": {
     "nav.catalog": "الكتالوج",
@@ -1403,7 +1546,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "hi": {
     "nav.catalog": "कैटलॉग",
@@ -1491,7 +1645,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "nl": {
     "nav.catalog": "Catalogus",
@@ -1579,7 +1744,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "cs": {
     "nav.catalog": "Katalog",
@@ -1667,7 +1843,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "ro": {
     "nav.catalog": "Catalog",
@@ -1755,7 +1942,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "hu": {
     "nav.catalog": "Katalógus",
@@ -1843,7 +2041,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "sv": {
     "nav.catalog": "Katalog",
@@ -1931,7 +2140,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "da": {
     "nav.catalog": "Katalog",
@@ -2019,7 +2239,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "fi": {
     "nav.catalog": "Luettelo",
@@ -2107,7 +2338,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "el": {
     "nav.catalog": "Κατάλογος",
@@ -2195,7 +2437,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "he": {
     "nav.catalog": "קטלוג",
@@ -2283,7 +2536,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "th": {
     "nav.catalog": "แคตตาล็อก",
@@ -2371,7 +2635,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "vi": {
     "nav.catalog": "Danh mục",
@@ -2459,7 +2734,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "id": {
     "nav.catalog": "Katalog",
@@ -2547,7 +2833,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "ms": {
     "nav.catalog": "Katalog",
@@ -2635,7 +2932,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "fa": {
     "nav.catalog": "فهرست",
@@ -2723,7 +3031,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "bn": {
     "nav.catalog": "ক্যাটালগ",
@@ -2811,7 +3130,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "sr": {
     "nav.catalog": "Каталог",
@@ -2899,7 +3229,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "hr": {
     "nav.catalog": "Katalog",
@@ -2987,7 +3328,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "sk": {
     "nav.catalog": "Katalóg",
@@ -3075,7 +3427,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "bg": {
     "nav.catalog": "Каталог",
@@ -3163,7 +3526,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "lt": {
     "nav.catalog": "Katalogas",
@@ -3251,7 +3625,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "lv": {
     "nav.catalog": "Katalogs",
@@ -3339,7 +3724,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "et": {
     "nav.catalog": "Kataloog",
@@ -3427,7 +3823,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "ka": {
     "nav.catalog": "კატალოგი",
@@ -3515,7 +3922,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "hy": {
     "nav.catalog": "Կատալոգ",
@@ -3603,7 +4021,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "az": {
     "nav.catalog": "Kataloq",
@@ -3691,7 +4120,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "kk": {
     "nav.catalog": "Каталог",
@@ -3779,7 +4219,18 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   },
   "uz": {
     "nav.catalog": "Katalog",
@@ -3867,6 +4318,17 @@
     "region.ru": "Russia & CIS · 199 ₽",
     "region.intl": "Europe & Americas · $4.99",
     "empty.search": "Nothing found. Clear search or filter.",
-    "err.load": "Load error. Run start-site.bat"
+    "err.load": "Load error. Run start-site.bat",
+    "seo.index.title": "HART Knowledge Club — 231+ learning programs",
+    "seo.index.description": "Catalog of 231+ courses, interactives and study guides. Pay $4.99, get access in your account. Europe & Americas.",
+    "seo.support.title": "Support — HART Knowledge Club",
+    "seo.support.description": "Payment and access support for HART Knowledge Club. Email and Telegram.",
+    "seo.pay.title": "Payment — HART Knowledge Club",
+    "seo.pay.description": "Pay for course access: card or PayPal. Instant enrollment after verification.",
+    "seo.course.pending_title": "Course — HART Knowledge Club",
+    "seo.course.pending_description": "Online learning program. Full access after payment at HART Knowledge Club.",
+    "seo.course.title": "{title} — HART Knowledge Club",
+    "seo.course.description": "{title}. {desc} Full access after payment.",
+    "seo.course.description_en": "{title} — online program at HART Knowledge Club. Access from $4.99."
   }
 }
