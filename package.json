@@ -1,0 +1,12 @@
+{
+  "name": "hart-knowledge-club",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HART Knowledge Club course catalog",
+  "scripts": {
+    "build": "python scripts/gen_config.py",
+    "i18n": "python build_i18n.py",
+    "sitemap": "python scripts/gen_sitemap.py",
+    "start": "python site_server.py"
+  }
+}

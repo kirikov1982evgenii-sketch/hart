@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Вход…</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="padding:2rem;color:#8ec5ea">
+  <p id="msg">Вход и открытие курса…</p>
+  <script src="config.js"></script>
+  <script src="js/session.js"></script>
+  <script>
+    (async function () {
+      const params = new URLSearchParams(location.search);
+      const id = params.get("id") || "облако-знаний";
+      const n = params.get("n") || "1";
+      const api = (window.SITE_CONFIG?.paymentApiUrl || location.origin).replace(/\/$/, "");
+      document.getElementById("msg").textContent =
+        "Курс №" + n + " («" + id + "»): вход администратора…";
+      try {
+        const r = await fetch(
+          api + "/api/dev/session?course_id=" + encodeURIComponent(id)
+        );
+        const d = await r.json();
+        if (d.ok) {
+          sessionStorage.setItem("hart_user_email", d.email);
+          sessionStorage.setItem("hart_user_code", d.code);
+          sessionStorage.setItem("hart_user_admin", "1");
+          if (window.HartSession?.saveSession) {
+            HartSession.saveSession(d.email, d.code, d.name || "Администратор");
+          }
+        }
+      } catch (e) {
+        document.getElementById("msg").textContent =
+          "Ошибка API. Запустите start-site.bat. " + (e.message || e);
+        return;
+      }
+      location.replace(
+        "course.html?id=" + encodeURIComponent(id) + "&learn=1&n=" + encodeURIComponent(n)
+      );
+    })();
+  </script>
+</body>
+</html>

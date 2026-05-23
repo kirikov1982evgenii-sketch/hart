@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Подтверждение оплат — админ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap" style="max-width:640px;padding-top:2rem">
+    <h1>Подтверждение оплат 199 ₽</h1>
+    <p class="pay-hint">Только на вашем ПК. PIN из файла <code>.env.local</code> (не в config.js).</p>
+    <label>PIN администратора</label>
+    <input type="password" id="admin-pin" class="input">
+    <button class="btn-primary" id="btn-load">Загрузить заявки</button>
+    <div id="list" style="margin-top:1.5rem"></div>
+    <p id="admin-msg" class="form-msg"></p>
+    <p style="margin-top:2rem"><a href="index.html">← На сайт</a></p>
+  </div>
+  <script src="config.js"></script>
+  <script src="js/admin-payments-page.js"></script>
+</body>
+</html>

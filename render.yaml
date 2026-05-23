@@ -1,0 +1,74 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# После push в Git: Dashboard → New → Blueprint → подключить репозиторий
+
+services:
+  - type: web
+    name: hart-payments
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python payment_server.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+      - key: MARKET_ADMIN_PIN
+        sync: false
+      - key: MARKET_PAY_SALT
+        sync: false
+      - key: MARKET_OWNER_EMAIL
+        sync: false
+      - key: MARKET_OWNER_PIN
+        sync: false
+      - key: MARKET_PAY_CARD
+        value: "2200702158761978"
+      - key: MARKET_PAY_BANK
+        value: "Т-Банк"
+      - key: MARKET_PAY_NAME
+        value: "Евгений"
+      - key: MARKET_PRICE_RUB
+        value: "199"
+      - key: MARKET_PRICE_USD
+        value: "4.99"
+      - key: MARKET_PAYPAL_EMAIL
+        sync: false
+      - key: MARKET_SUPPORT_EMAIL
+        sync: false
+      - key: HART_TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: HART_TELEGRAM_CHAT_ID
+        sync: false
+      - key: HART_SITE_URL
+        sync: false
+      - key: MARKET_CORS_ORIGINS
+        sync: false
+
+  - type: worker
+    name: hart-telegram-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python telegram_bot.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+      - key: HART_TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: HART_TELEGRAM_CHAT_ID
+        sync: false
+      - key: HART_SITE_URL
+        sync: false
+      - key: MARKET_PAYMENT_API
+        sync: false
+      - key: MARKET_SUPPORT_EMAIL
+        sync: false
+      - key: MARKET_PAY_CARD
+        value: "2200702158761978"
+      - key: MARKET_PAY_BANK
+        value: "Т-Банк"
+      - key: MARKET_PAY_NAME
+        value: "Евгений"
+      - key: MARKET_PRICE_RUB
+        value: "199"
+      - key: MARKET_PRICE_USD
+        value: "4.99"

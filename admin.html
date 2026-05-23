@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Админ — подтверждение оплат 199 ₽</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap" style="max-width:520px;padding-top:3rem">
+    <h1>Подтверждение оплат</h1>
+    <p class="pay-hint">Переводы 199 ₽ на карту 2200 7021 5876 1978 (Т-Банк). Сверьте код PAY-… в комментарии.</p>
+    <label>ПИН (adminPin из config.js)</label>
+    <input type="password" id="admin-pin" class="input">
+    <label>Email пользователя</label>
+    <input type="email" id="admin-email" class="input" placeholder="user@mail.ru">
+    <button class="btn-primary" id="admin-ok">Открыть доступ</button>
+    <p id="admin-msg" class="form-msg"></p>
+    <p style="margin-top:2rem;color:var(--muted);font-size:0.85rem">
+      Без serviceRoleKey: Supabase → profiles → paid=true, payment_status=paid
+    </p>
+    <p><a href="index.html">← На сайт</a></p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script>
+    document.getElementById("admin-ok").onclick = async () => {
+      const msg = document.getElementById("admin-msg");
+      const pin = document.getElementById("admin-pin").value;
+      const email = document.getElementById("admin-email").value.trim();
+      if (pin !== (window.SITE_CONFIG?.adminPin || "")) {
+        msg.textContent = "Неверный ПИН";
+        msg.className = "form-msg err";
+        return;
+      }
+      const key =
+        SITE_CONFIG.serviceRoleKey && SITE_CONFIG.serviceRoleKey.length > 20
+          ? SITE_CONFIG.serviceRoleKey
+          : SITE_CONFIG.supabaseAnonKey;
+      const sb = window.supabase.createClient(SITE_CONFIG.supabaseUrl, key);
+      const { data: row, error: e1 } = await sb
+        .from("profiles")
+        .select("id")
+        .eq("email", email)
+        .maybeSingle();
+      if (e1 || !row) {
+        msg.textContent = e1?.message || "Нет пользователя с таким email";
+        msg.className = "form-msg err";
+        return;
+      }
+      const { error } = await sb
+        .from("profiles")
+        .update({
+          paid: true,
+          payment_status: "paid",
+          paid_at: new Date().toISOString(),
+        })
+        .eq("id", row.id);
+      if (error) {
+        msg.textContent =
+          error.message +
+          " — откройте paid вручную в Supabase или добавьте serviceRoleKey в config.js";
+        msg.className = "form-msg err";
+        return;
+      }
+      msg.textContent = "Доступ открыт: " + email;
+      msg.className = "form-msg ok";
+    };
+  </script>
+</body>
+</html>
