@@ -13,6 +13,5 @@ window.SITE_CONFIG = {
   "supportEmail": "freelancerwok@mail.ru",
   "ownerEmail": "freelancerwok@mail.ru",
   "telegramBot": "https://t.me/uportbot",
-  "telegramBotName": "uportbot",
-  "devMode": true
+  "telegramBotName": "uportbot"
 };
