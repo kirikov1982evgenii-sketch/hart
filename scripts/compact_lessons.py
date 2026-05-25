@@ -136,7 +136,9 @@ def build_module_lesson(
 
 
 def _tasks(course: dict, mod_title: str, hours: int) -> list[dict]:
-    return [
+    from supplementary_materials import enrich_tasks_extra
+
+    base = [
         {
             "title": "После видео",
             "instruction": f"По «{mod_title}»: выпишите 5 тезисов из ролика и сопоставьте с пунктами урока.",
@@ -146,3 +148,4 @@ def _tasks(course: dict, mod_title: str, hours: int) -> list[dict]:
             "instruction": f"Выполните одно задание по теме (~{max(1, hours // 3)} ч). Краткий отчёт — 15–20 предложений.",
         },
     ]
+    return base + enrich_tasks_extra(course, mod_title, hours)

@@ -242,7 +242,7 @@
       const item = { lesson, idx };
       const t = lesson.type || "";
       const id = String(lesson.id || "");
-      if (t === "quiz" || t === "practice" || id.includes("checklist")) {
+      if (t === "quiz" || t === "practice" || id.includes("checklist") || id.includes("-materials")) {
         outro.push(item);
       } else if (
         t === "lesson" ||
@@ -318,8 +318,20 @@
     </a>`;
   }
 
-  function getLessonResources(lesson, course) {
+  function linksFromLessonBody(lesson) {
     const cards = [];
+    const body = lesson.body || "";
+    const re = /Ссылка:\s*(https?:\/\/[^\s]+)/g;
+    let m;
+    while ((m = re.exec(body)) !== null) {
+      const url = m[1].replace(/[.,;]+$/, "");
+      cards.push(resourceCard(url, "Материал программы", url));
+    }
+    return cards;
+  }
+
+  function getLessonResources(lesson, course) {
+    const cards = linksFromLessonBody(lesson);
     const rutube = (lesson.rutubeId || "").trim();
     const yt = (lesson.youtubeId || "").trim();
     if (rutube) {

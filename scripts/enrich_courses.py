@@ -17,6 +17,7 @@ from curriculum_500h import (  # noqa: E402
     target_hours,
 )
 from product_facts import clean_about, product_sheet, quiz_from_sheet  # noqa: E402
+from supplementary_materials import supplementary_lesson  # noqa: E402
 from video_map import videos_for_course  # noqa: E402
 
 RES = BASE / "data" / "resources.json"
@@ -113,6 +114,8 @@ def enrich_resource(r: dict) -> dict:
         }
     )
 
+    lessons.append(supplementary_lesson(r))
+
     questions = quiz_from_sheet(rows, cid)
     if questions:
         lessons.append(
@@ -161,7 +164,8 @@ def main() -> None:
     data["resources"] = resources
     data.setdefault("meta", {})
     data["meta"]["enriched"] = True
-    data["meta"]["lessonPlayer"] = "v7-video-lessons"
+    data["meta"]["lessonPlayer"] = "v8-materials"
+    data["meta"]["hasSupplementary"] = True
     data["meta"]["longreadsFrom"] = 1
     data["meta"]["programHours"] = "300-520"
     RES.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
