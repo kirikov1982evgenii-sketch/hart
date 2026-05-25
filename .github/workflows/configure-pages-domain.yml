@@ -18,33 +18,75 @@ jobs:
   domain-and-https:
     runs-on: ubuntu-latest
     steps:
-      - name: Set custom domain and enforce HTTPS
+      - name: Bind custom domain (cname only)
         uses: actions/github-script@v7
         with:
           script: |
             const { owner, repo } = context.repo;
             const cname = "hart-club.ru";
-            try {
-              await github.rest.repos.updateInformationAboutPagesSite({
-                owner,
-                repo,
-                cname,
-                https_enforced: true,
-                build_type: "workflow",
-              });
-              core.info(`Pages: cname=${cname}, https_enforced=true`);
-            } catch (e) {
-              core.setFailed(`updateInformationAboutPagesSite: ${e.message}`);
-              throw e;
+            await github.rest.repos.updateInformationAboutPagesSite({
+              owner,
+              repo,
+              cname,
+              build_type: "workflow",
+            });
+            core.info(`Custom domain saved: ${cname}`);
+
+      - name: Wait for DNS / certificate eligibility
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+            let eligible = false;
+            for (let i = 0; i < 12; i++) {
+              try {
+                const health = await github.request(
+                  "GET /repos/{owner}/{repo}/pages/health",
+                  { owner, repo }
+                );
+                const d = health.data?.domain || health.data;
+                core.info(`health[${i}]: ${JSON.stringify(d)}`);
+                if (d?.is_https_eligible || d?.enforces_https) {
+                  eligible = true;
+                  break;
+                }
+              } catch (e) {
+                core.warning(`health check: ${e.message}`);
+              }
+              await sleep(15000);
             }
-            const pages = await github.rest.repos.getPages({ owner, repo });
-            core.info(JSON.stringify(pages.data, null, 2));
+            if (!eligible) {
+              core.warning(
+                "Certificate not ready yet — GitHub may need up to 24h. Domain binding is done."
+              );
+            }
+
+      - name: Enforce HTTPS when eligible
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
             try {
               const health = await github.request(
                 "GET /repos/{owner}/{repo}/pages/health",
                 { owner, repo }
               );
-              core.info("DNS health: " + JSON.stringify(health.data, null, 2));
-            } catch (he) {
-              core.warning("pages/health: " + he.message);
+              const d = health.data?.domain || health.data;
+              if (!d?.is_https_eligible) {
+                core.warning("Skip https_enforced: certificate not eligible yet");
+                return;
+              }
+              await github.rest.repos.updateInformationAboutPagesSite({
+                owner,
+                repo,
+                cname: "hart-club.ru",
+                https_enforced: true,
+                build_type: "workflow",
+              });
+              core.info("HTTPS enforcement enabled");
+            } catch (e) {
+              core.warning(`enforce HTTPS: ${e.message}`);
             }
+            const pages = await github.rest.repos.getPages({ owner, repo });
+            core.info(JSON.stringify(pages.data, null, 2));
