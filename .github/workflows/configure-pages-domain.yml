@@ -1,0 +1,50 @@
+# Привязка hart-club.ru и выпуск HTTPS-сертификата GitHub Pages
+name: Configure Pages domain (hart-club.ru)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - CNAME
+      - .github/workflows/configure-pages-domain.yml
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  domain-and-https:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set custom domain and enforce HTTPS
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const cname = "hart-club.ru";
+            try {
+              await github.rest.repos.updateInformationAboutPagesSite({
+                owner,
+                repo,
+                cname,
+                https_enforced: true,
+                build_type: "workflow",
+              });
+              core.info(`Pages: cname=${cname}, https_enforced=true`);
+            } catch (e) {
+              core.setFailed(`updateInformationAboutPagesSite: ${e.message}`);
+              throw e;
+            }
+            const pages = await github.rest.repos.getPages({ owner, repo });
+            core.info(JSON.stringify(pages.data, null, 2));
+            try {
+              const health = await github.request(
+                "GET /repos/{owner}/{repo}/pages/health",
+                { owner, repo }
+              );
+              core.info("DNS health: " + JSON.stringify(health.data, null, 2));
+            } catch (he) {
+              core.warning("pages/health: " + he.message);
+            }
